@@ -44,7 +44,7 @@ developer-docs-portfolio/
 ├── sdc-timing-constraints.md      # Conceptual guide for SDC & CDC exceptions
 ├── troubleshooting-eda-builds.md  # Troubleshooting & error resolution guide
 └── rtl-synthesis-architecture.md # Conceptual architecture guide
-text```
+```
 
 ## 📬 Contact & Professional Links
 * **Author:** Shefali Dutta
