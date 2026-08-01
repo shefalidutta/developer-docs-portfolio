@@ -6,7 +6,7 @@ Welcome to my technical writing portfolio. As a Senior Technical Engineer with a
 
 ## 🛠 Portfolio Samples
 
-### 1. [EDA System Architecture: RTL-to-GDSII Synthesis Flow](sample-1-architecture.md)
+### 1. [EDA System Architecture: RTL-to-GDSII Synthesis Flow](rtl-synthesis-architecture.md)
 * **Target Audience:** Hardware Design Engineers, CAD Engineers, Developers
 * **Overview:** A detailed breakdown of the automated synthesis pipeline, data model checks, and timing closure constraints.
 
