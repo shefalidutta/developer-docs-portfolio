@@ -40,12 +40,12 @@ developer-docs-portfolio/
 │       └── docs-ci.yml            # CI/CD pipeline for markdown linting & link checking
 ├── README.md                      # Portfolio landing page
 ├── quickstart-guide.md            # Developer quickstart & onboarding
-├── cli-api-reference.md            # CLI flags & subcommand API spec
+├── cli-api-reference.md           # CLI flags & subcommand API spec
 ├── tcl-command-reference.md       # Scripting command reference (SDC/TCL)
 ├── sdc-timing-constraints.md      # Conceptual guide for SDC & CDC exceptions
 ├── troubleshooting-eda-builds.md  # Troubleshooting & error resolution guide
-├── release-notes.md  # Release & Migration guide
-└── rtl-synthesis-architecture.md # Conceptual architecture guide
+├── release-notes.md               # Release & Migration guide
+└── rtl-synthesis-architecture.md  # Conceptual architecture guide
 ```
 
 ## 📬 Contact & Professional Links
