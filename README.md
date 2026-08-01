@@ -21,10 +21,10 @@ The documentation samples in this repository mirror production-grade deliverable
 
 | Sample Document | Category | Key Highlights & Focus Areas |
 | :--- | :--- | :--- |
-| **[`quickstart-guide.md`](./samples/quickstart-guide.md)** | **Developer Onboarding** | Step-by-step environment setup, licensing configuration, and end-to-end synthesis execution flow. |
-| **[`cli-api-reference.md`](./samples/cli-api-reference.md)** | **CLI / API Reference** | Complete command-line interface specification for `eda-cli`, including global flags, subcommands, output trees, and POSIX exit codes. |
-| **[`tcl-command-reference.md`](./samples/tcl-command-reference.md)** | **Scripting API Reference** | Formal TCL command API reference for static timing constraints (`create_clock`) and path queries (`get_timing_paths`). |
-| **[`rtl-synthesis-architecture.md`](./samples/rtl-synthesis-architecture.md)** | **System Architecture** | Conceptual architecture guide detailing RTL-to-gate mapping pipelines, constraint inputs, and intermediate representations. |
+| **[`quickstart-guide.md`](./quickstart-guide.md)** | **Developer Onboarding** | Step-by-step environment setup, licensing configuration, and end-to-end synthesis execution flow. |
+| **[`cli-api-reference.md`](./cli-api-reference.md)** | **CLI / API Reference** | Complete command-line interface specification for `eda-cli`, including global flags, subcommands, output trees, and POSIX exit codes. |
+| **[`tcl-command-reference.md`](./tcl-command-reference.md)** | **Scripting API Reference** | Formal TCL command API reference for static timing constraints (`create_clock`) and path queries (`get_timing_paths`). |
+| **[`rtl-synthesis-architecture.md`](./rtl-synthesis-architecture.md)** | **System Architecture** | Conceptual architecture guide detailing RTL-to-gate mapping pipelines, constraint inputs, and intermediate representations. |
 
 ---
 
