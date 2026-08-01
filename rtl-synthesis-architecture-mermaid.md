@@ -44,6 +44,11 @@ graph TD
     F --> J
 ```
 
+## 2. Interactive Execution Sequence Diagram
+
+The sequence diagram below details the underlying execution order, component interactions, and data transformations occurring between the user CLI driver, memory elaboration workspace, technology cell mapper, and timing evaluation engines.
+
+```mermaid
 sequenceDiagram
     autonumber
     actor Dev as Developer
@@ -78,11 +83,3 @@ sequenceDiagram
     deactivate STA
 
     Driver-->>Dev: Generate output netlist (.v) & reports (.rpt)
-
-    %% Node Styling
-    style A fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
-    style C fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
-    style E fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
-    style H fill:#e8f5e9,stroke:#388e3c,stroke-width:2px
-    style I fill:#fff3e0,stroke:#f57c00,stroke-width:2px
-    style J fill:#fff3e0,stroke:#f57c00,stroke-width:2px
