@@ -1,25 +1,49 @@
-# Shefali Dutta | Developer Documentation & Technical Writing
+# Shefali Dutta | Developer Documentation Portfolio
 
-Welcome to my technical writing portfolio. As a Senior Technical Engineer with a background in hardware design engineering, I specialize in developer experience (DX), EDA software documentation, API references, and system architecture guides.
-
----
-
-## 🛠 Portfolio Samples
-
-### 1. [EDA System Architecture: RTL-to-GDSII Synthesis Flow](https://github.com/shefalidutta/developer-docs-portfolio/blob/main/rtl-synthesis-architecture.md)
-* **Target Audience:** Hardware Design Engineers, CAD Engineers, Developers
-* **Overview:** A detailed breakdown of the automated synthesis pipeline, data model checks, and timing closure constraints.
-
-### 2. [CLI & API Tool Reference Guide](cli-api-reference.md)
-* **Target Audience:** Automation Engineers & Software Developers
-* **Overview:** Complete syntax, flags, parameters, and code snippets for integrating design validation tools.
-
-### 3. [Quickstart: Onboarding Developer Guide](quickstart-guide.md)
-* **Target Audience:** New Engineering Onboarding
-* **Overview:** Step-by-step setup guide to configure environment variables and execute initial test runs in under 5 minutes.
+Welcome! I am **Shefali**, a Senior Technical Writer specializing in Electronic Design Automation (EDA) software, hardware developer platforms, and chip design toolchains.
 
 ---
 
-## 💼 Domain Expertise
-* **Tools & Frameworks:** EDA Software, RTL/Logic Design, Static Timing Analysis (STA), Docs-as-Code (MkDocs, Markdown, Git)
-* **Specialization:** Developer Portals, System Architecture Diagrams, API Documentation
+## 💡 About Me & Technical Domain
+
+With a foundational background as an **SoC Design Engineer** combined with **Technical Writing**, I bridge the gap between complex silicon design pipelines and intuitive developer documentation. 
+
+### Core Capabilities
+* **Hardware & EDA Concepts:** RTL Synthesis, Static Timing Analysis (STA), Design Rule Checking (DRC), TCL/SDC scripting, and foundry technology libraries (`.lib`).
+* **Docs-as-Code Workflows:** Git, GitHub Actions, Markdown/MDX, static linters (`markdownlint`), automated link validation (`lychee`), and static site generators.
+* **Information Architecture:** Structured reference docs, CLI API specs, step-by-step developer onboarding, and conceptual system architecture guides.
+
+---
+
+## 📂 Featured Portfolio Samples
+
+The documentation samples in this repository mirror production-grade deliverables found in top-tier EDA software suites and hardware developer platforms.
+
+| Sample Document | Category | Key Highlights & Focus Areas |
+| :--- | :--- | :--- |
+| **[`quickstart-guide.md`](./samples/quickstart-guide.md)** | **Developer Onboarding** | Step-by-step environment setup, licensing configuration, and end-to-end synthesis execution flow. |
+| **[`cli-api-reference.md`](./samples/cli-api-reference.md)** | **CLI / API Reference** | Complete command-line interface specification for `eda-cli`, including global flags, subcommands, output trees, and POSIX exit codes. |
+| **[`tcl-command-reference.md`](./samples/tcl-command-reference.md)** | **Scripting API Reference** | Formal TCL command API reference for static timing constraints (`create_clock`) and path queries (`get_timing_paths`). |
+| **[`rtl-synthesis-architecture.md`](./samples/rtl-synthesis-architecture.md)** | **System Architecture** | Conceptual architecture guide detailing RTL-to-gate mapping pipelines, constraint inputs, and intermediate representations. |
+
+---
+
+## 📁 Repository Directory Structure
+
+```text
+developer-docs-portfolio/
+├── .github/
+│   └── workflows/
+│       └── docs-ci.yml            # CI/CD pipeline for markdown linting & link checking
+├── README.md                      # Portfolio landing page
+└── samples/
+    ├── quickstart-guide.md        # Developer quickstart & onboarding
+    ├── cli-api-reference.md        # CLI flags & subcommand API spec
+    ├── tcl-command-reference.md   # Scripting command reference (SDC/TCL)
+    └── rtl-synthesis-architecture.md # Conceptual architecture guide
+
+## 📬 Contact & Professional Links
+
+* **Author:** Shefali Dutta
+* **LinkedIn:** [linkedin.com/in/shefali-dutta-0185a9175]([https://linkedin.com](https://www.linkedin.com/in/shefali-dutta-0185a9175?utm_source=share_via&utm_content=profile&utm_medium=member_ios))
+* **Email:** [dutta2000shefali@gmail.com](mailto:dutta2000shefali@gmail.com)
