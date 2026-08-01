@@ -29,6 +29,7 @@ The documentation samples in this repository mirror production-grade deliverable
 | **[`release-notes.md`](./release-notes.md)** | **Release & Migration** | Enterprise release notes, breaking API change migration guides, and SemVer changelogs. |
 | **[`rest-api-reference.md`](./rest-api-reference.md)** | **REST API Reference** | Complete OpenAPI/REST API reference covering HTTP methods, Bearer authentication, request/response schemas, and `curl` snippets. |
 | **[`rtl-synthesis-architecture.md`](./rtl-synthesis-architecture.md)** | **System Architecture** | Conceptual architecture guide detailing RTL-to-gate mapping pipelines, constraint inputs, and intermediate representations. |
+| **[`rtl-synthesis-architecture-mermaid.md`](./rtl-synthesis-architecture-mermaid.md)** | **Visual Architecture** | Interactive Mermaid.js flowchart and sequence diagram edition of the RTL synthesis pipeline. |
 
 ---
 
@@ -38,16 +39,17 @@ The documentation samples in this repository mirror production-grade deliverable
 developer-docs-portfolio/
 ├── .github/
 │   └── workflows/
-│       └── docs-ci.yml            # CI/CD pipeline for markdown linting & link checking
-├── README.md                      # Portfolio landing page
-├── quickstart-guide.md            # Developer quickstart & onboarding
-├── cli-api-reference.md           # CLI flags & subcommand API spec
-├── tcl-command-reference.md       # Scripting command reference (SDC/TCL)
-├── sdc-timing-constraints.md      # Conceptual guide for SDC & CDC exceptions
-├── troubleshooting-eda-builds.md  # Troubleshooting & error resolution guide
-├── release-notes.md               # Release & Migration guide
-├── rest-api-reference.md          # Rest API Reference guide
-└── rtl-synthesis-architecture.md  # Conceptual architecture guide
+│       └── docs-ci.yml                    # CI/CD pipeline for markdown linting & link checking
+├── README.md                              # Portfolio landing page
+├── quickstart-guide.md                    # Developer quickstart & onboarding
+├── cli-api-reference.md                   # CLI flags & subcommand API spec
+├── tcl-command-reference.md               # Scripting command reference (SDC/TCL)
+├── sdc-timing-constraints.md              # Conceptual guide for SDC & CDC exceptions
+├── troubleshooting-eda-builds.md          # Troubleshooting & error resolution guide
+├── release-notes.md                       # Release & Migration guide
+├── rest-api-reference.md                  # Rest API Reference guide
+├── rtl-synthesis-architecture.md          # Conceptual architecture guide
+└── rtl-synthesis-architecture-mermaid.md  # Conceptual architecture guide
 ```
 
 ## 📬 Contact & Professional Links
