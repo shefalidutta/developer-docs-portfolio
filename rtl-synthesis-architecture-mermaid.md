@@ -43,6 +43,41 @@ graph TD
     F --> I
     F --> J
 
+sequenceDiagram
+    autonumber
+    actor Dev as Developer
+    participant Driver as Tool Orchestrator
+    participant Parser as HDL Parser / Elaborator
+    participant LibDB as Liberty (.lib) Database
+    participant OptEngine as Logic & Tech Mapper
+    participant STA as Timing Engine
+
+    Dev->>Driver: Execute Synthesis Pipeline Command
+    Driver->>Parser: Read & Parse RTL Files (.v / .sv)
+    activate Parser
+    Parser->>Parser: Validate syntax & construct Abstract Syntax Tree (AST)
+    Parser->>Parser: Elaborate modules & generate unmapped generic netlist
+    Parser-->>Driver: Return generic intermediate representation (IR)
+    deactivate Parser
+
+    Driver->>LibDB: Read Target Foundry Cell Definitions (.lib)
+    LibDB-->>Driver: Load cell area, delay arcs, and power metrics
+
+    Driver->>OptEngine: Pass IR Netlist + Standard Cell Database
+    activate OptEngine
+    OptEngine->>OptEngine: Perform Boolean logic optimization & dead code elimination
+    OptEngine->>OptEngine: Map generic logic primitives to target technology cells
+    OptEngine-->>Driver: Mapped Gate-Level Netlist
+    deactivate OptEngine
+
+    Driver->>STA: Read Constraints (.sdc) & Evaluate Slack
+    activate STA
+    STA->>STA: Compute setup/hold windows & worst negative slack (WNS)
+    STA-->>Driver: Return slack calculation metrics & timing logs
+    deactivate STA
+
+    Driver-->>Dev: Generate output netlist (.v) & reports (.rpt)
+
     %% Node Styling
     style A fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
     style C fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
