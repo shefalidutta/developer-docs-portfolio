@@ -42,6 +42,7 @@ graph TD
     F --> H
     F --> I
     F --> J
+```
 
 sequenceDiagram
     autonumber
