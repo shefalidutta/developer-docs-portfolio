@@ -27,6 +27,7 @@ The documentation samples in this repository mirror production-grade deliverable
 | **[`sdc-timing-constraints.md`](./sdc-timing-constraints.md)** | **Hardware Concepts Guide** | Conceptual guide covering SDC clock domains, generated clocks, and Clock Domain Crossing (CDC) exceptions. |
 | **[`troubleshooting-eda-builds.md`](./troubleshooting-eda-builds.md)** | **Troubleshooting & Diagnostics** | Diagnostic matrix, root-cause analyses, and resolution procedures for build & license failures. |
 | **[`release-notes.md`](./release-notes.md)** | **Release & Migration** | Enterprise release notes, breaking API change migration guides, and SemVer changelogs. |
+| **[`rest-api-reference.md`](./rest-api-reference.md)** | **REST API Reference** | Complete OpenAPI/REST API reference covering HTTP methods, Bearer authentication, request/response schemas, and `curl` snippets. |
 | **[`rtl-synthesis-architecture.md`](./rtl-synthesis-architecture.md)** | **System Architecture** | Conceptual architecture guide detailing RTL-to-gate mapping pipelines, constraint inputs, and intermediate representations. |
 
 ---
@@ -45,6 +46,7 @@ developer-docs-portfolio/
 ├── sdc-timing-constraints.md      # Conceptual guide for SDC & CDC exceptions
 ├── troubleshooting-eda-builds.md  # Troubleshooting & error resolution guide
 ├── release-notes.md               # Release & Migration guide
+├── rest-api-reference.md          # Rest API Reference guide
 └── rtl-synthesis-architecture.md  # Conceptual architecture guide
 ```
 
