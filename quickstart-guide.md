@@ -71,9 +71,14 @@ Now that you have completed your first synthesis build, explore these advanced t
 
 * Refer to the [CLI API Reference](./cli-api-reference.md) for full flag descriptions.
 * Review the [RTL Synthesis Architecture Overview](./rtl-synthesis-architecture.md) to understand intermediate logic optimizations.
-* Configure custom multi-corner timing analyses using custom `.sdc` scripts.
-  | Sample File | Category | Description |
-| :--- | :--- | :--- |
-| [`quickstart-guide.md`](./samples/quickstart-guide.md) | **Onboarding / Guide** | Step-by-step developer quickstart for setting up environments and executing synthesis pipelines. |
-| [`cli-api-reference.md`](./samples/cli-api-reference.md) | **API / CLI Reference** | Complete CLI API reference for `eda-cli`, detailing global flags, subcommands, and exit codes. |
-| [`rtl-synthesis-architecture.md`](./samples/rtl-synthesis-architecture.md) | **Architecture Guide** | Conceptual architectural overview for RTL logic synthesis pipelines. |
+  
+## Step-by-Step Onboarding Process
+
+| Step | Action | Command / Output | Description |
+| :--- | :--- | :--- | :--- |
+| **1. Install `eda-cli`** | Install via package manager | `pip install eda-cli-tools --upgrade` | Downloads and installs the latest stable version of `eda-cli` from the internal registry. |
+| **2. Configure Environment** | Export variables in `~/.bashrc` | `export EDA_LICENSE_FILE="27000@lic-server.internal.net"`<br>`export PDK_ROOT="/opt/foundry/pdk/7nm_stdcells"` | Configures paths for active license server access and foundry technology libraries. |
+| **3. Initialize Workspace** | Generate project scaffolding | `eda-cli init my_first_design --template rtl-std` | Creates directory structure with sample RTL (`.v`), constraints (`.sdc`), and rules (`.drc`). |
+| **4. Run Synthesis** | Execute synthesis engine | `eda-cli build --target synthesis --threads 4` | Synthesizes behavioral Verilog into a technology-mapped gate-level netlist using 4 threads. |
+| **5. Validate Artifacts** | Inspect output directory | `ls -la ./dist` | Verifies existence of generated netlist (`top_level.v`), logs, and timing reports (`.rpt`). |
+| **6. Run Analysis** | Execute DRC and STA checks | `eda-cli analyze --rule-set ./rules/default.drc` | Analyzes output netlist against foundry constraints to ensure zero timing or rule violations. |
