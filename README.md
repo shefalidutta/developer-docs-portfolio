@@ -46,7 +46,6 @@ developer-docs-portfolio/
 └── rtl-synthesis-architecture.md # Conceptual architecture guide
 
 ## 📬 Contact & Professional Links
-
 * **Author:** Shefali Dutta
 * **LinkedIn:** [linkedin.com/in/shefali-dutta-0185a9175]([https://linkedin.com](https://www.linkedin.com/in/shefali-dutta-0185a9175?utm_source=share_via&utm_content=profile&utm_medium=member_ios))
 * **Email:** [dutta2000shefali@gmail.com](mailto:dutta2000shefali@gmail.com)
