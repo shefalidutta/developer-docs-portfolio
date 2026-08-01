@@ -64,14 +64,6 @@ Run static analysis against your output netlist to verify that there are no setu
 If analysis passes with zero critical errors, your netlist is ready for physical design (Place and Route).
 
 ---
-
-## Next Steps
-
-Now that you have completed your first synthesis build, explore these advanced topics:
-
-* Refer to the [CLI API Reference](./cli-api-reference.md) for full flag descriptions.
-* Review the [RTL Synthesis Architecture Overview](./rtl-synthesis-architecture.md) to understand intermediate logic optimizations.
-  
 ## Step-by-Step Onboarding Process
 
 | Step | Action | Command / Output | Description |
@@ -82,3 +74,10 @@ Now that you have completed your first synthesis build, explore these advanced t
 | **4. Run Synthesis** | Execute synthesis engine | `eda-cli build --target synthesis --threads 4` | Synthesizes behavioral Verilog into a technology-mapped gate-level netlist using 4 threads. |
 | **5. Validate Artifacts** | Inspect output directory | `ls -la ./dist` | Verifies existence of generated netlist (`top_level.v`), logs, and timing reports (`.rpt`). |
 | **6. Run Analysis** | Execute DRC and STA checks | `eda-cli analyze --rule-set ./rules/default.drc` | Analyzes output netlist against foundry constraints to ensure zero timing or rule violations. |
+
+## Next Steps
+
+Now that you have completed your first synthesis build, explore these advanced topics:
+
+* Refer to the [CLI API Reference](./cli-api-reference.md) for full flag descriptions.
+* Review the [RTL Synthesis Architecture Overview](./rtl-synthesis-architecture.md) to understand intermediate logic optimizations.
