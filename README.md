@@ -36,11 +36,10 @@ developer-docs-portfolio/
 │   └── workflows/
 │       └── docs-ci.yml            # CI/CD pipeline for markdown linting & link checking
 ├── README.md                      # Portfolio landing page
-└── samples/
-    ├── quickstart-guide.md        # Developer quickstart & onboarding
-    ├── cli-api-reference.md        # CLI flags & subcommand API spec
-    ├── tcl-command-reference.md   # Scripting command reference (SDC/TCL)
-    └── rtl-synthesis-architecture.md # Conceptual architecture guide
+├── quickstart-guide.md            # Developer quickstart & onboarding
+├── cli-api-reference.md            # CLI flags & subcommand API spec
+├── tcl-command-reference.md       # Scripting command reference (SDC/TCL)
+└── rtl-synthesis-architecture.md # Conceptual architecture guide
 
 ## 📬 Contact & Professional Links
 
