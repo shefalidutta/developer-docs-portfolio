@@ -10,11 +10,11 @@ Welcome to my technical writing portfolio. As a Senior Technical Engineer with a
 * **Target Audience:** Hardware Design Engineers, CAD Engineers, Developers
 * **Overview:** A detailed breakdown of the automated synthesis pipeline, data model checks, and timing closure constraints.
 
-### 2. [CLI & API Tool Reference Guide](sample-2-cli-reference.md)
+### 2. [CLI & API Tool Reference Guide](cli-api-reference.md)
 * **Target Audience:** Automation Engineers & Software Developers
 * **Overview:** Complete syntax, flags, parameters, and code snippets for integrating design validation tools.
 
-### 3. [Quickstart: Onboarding Developer Guide](sample-3-quickstart.md)
+### 3. [Quickstart: Onboarding Developer Guide](quickstart-guide.md)
 * **Target Audience:** New Engineering Onboarding
 * **Overview:** Step-by-step setup guide to configure environment variables and execute initial test runs in under 5 minutes.
 
