@@ -24,6 +24,8 @@ The documentation samples in this repository mirror production-grade deliverable
 | **[`quickstart-guide.md`](./quickstart-guide.md)** | **Developer Onboarding** | Step-by-step environment setup, licensing configuration, and end-to-end synthesis execution flow. |
 | **[`cli-api-reference.md`](./cli-api-reference.md)** | **CLI / API Reference** | Complete command-line interface specification for `eda-cli`, including global flags, subcommands, output trees, and POSIX exit codes. |
 | **[`tcl-command-reference.md`](./tcl-command-reference.md)** | **Scripting API Reference** | Formal TCL command API reference for static timing constraints (`create_clock`) and path queries (`get_timing_paths`). |
+| **[`sdc-timing-constraints.md`](./sdc-timing-constraints.md)** | **Hardware Concepts Guide** | Conceptual guide covering SDC clock domains, generated clocks, and Clock Domain Crossing (CDC) exceptions. |
+| **[`troubleshooting-eda-builds.md`](./troubleshooting-eda-builds.md)** | **Troubleshooting & Diagnostics** | Diagnostic matrix, root-cause analyses, and resolution procedures for build & license failures. |
 | **[`rtl-synthesis-architecture.md`](./rtl-synthesis-architecture.md)** | **System Architecture** | Conceptual architecture guide detailing RTL-to-gate mapping pipelines, constraint inputs, and intermediate representations. |
 
 ---
@@ -39,6 +41,8 @@ developer-docs-portfolio/
 ├── quickstart-guide.md            # Developer quickstart & onboarding
 ├── cli-api-reference.md            # CLI flags & subcommand API spec
 ├── tcl-command-reference.md       # Scripting command reference (SDC/TCL)
+├── sdc-timing-constraints.md      # Conceptual guide for SDC & CDC exceptions
+├── troubleshooting-eda-builds.md  # Troubleshooting & error resolution guide
 └── rtl-synthesis-architecture.md # Conceptual architecture guide
 
 ## 📬 Contact & Professional Links
