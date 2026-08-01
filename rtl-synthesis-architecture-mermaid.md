@@ -53,7 +53,7 @@ graph TD
 
 sequenceDiagram
     autonumber
-    actor Dev as Developer Engine
+    actor Dev as Developer
     participant Driver as Tool Orchestrator
     participant Parser as HDL Parser / Elaborator
     participant LibDB as Liberty (.lib) Database
