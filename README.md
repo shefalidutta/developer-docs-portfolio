@@ -43,7 +43,7 @@ developer-docs-portfolio/
 ├── tcl-command-reference.md       # Scripting command reference (SDC/TCL)
 ├── sdc-timing-constraints.md      # Conceptual guide for SDC & CDC exceptions
 ├── troubleshooting-eda-builds.md  # Troubleshooting & error resolution guide
-└── rtl-synthesis-architecture.md # Conceptual architecture guide
+└── rtl-synthesis-architecture.md # Conceptual architecture guide ```
 
 ## 📬 Contact & Professional Links
 * **Author:** Shefali Dutta
