@@ -1,0 +1,31 @@
+name: Documentation CI/CD
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint-and-validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Markdown Linter
+        run: npm install -g markdownlint-cli
+
+      - name: Lint Markdown Files
+        run: markdownlint '**/*.md' --ignore node_modules
+
+      - name: Validate Relative Links
+        uses: lycheeververse/lychee-action@v1
+        with:
+          args: '--verbose --no-progress "**/*.md"'
