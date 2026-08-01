@@ -49,7 +49,7 @@ developer-docs-portfolio/
 ├── release-notes.md                       # Release & Migration guide
 ├── rest-api-reference.md                  # Rest API Reference guide
 ├── rtl-synthesis-architecture.md          # Conceptual architecture guide
-└── rtl-synthesis-architecture-mermaid.md  # Conceptual architecture guide
+└── rtl-synthesis-architecture-mermaid.md  # Diagrammatic/Visual edition (Mermaid.js)
 ```
 
 ## 📬 Contact & Professional Links
