@@ -26,6 +26,7 @@ The documentation samples in this repository mirror production-grade deliverable
 | **[`tcl-command-reference.md`](./tcl-command-reference.md)** | **Scripting API Reference** | Formal TCL command API reference for static timing constraints (`create_clock`) and path queries (`get_timing_paths`). |
 | **[`sdc-timing-constraints.md`](./sdc-timing-constraints.md)** | **Hardware Concepts Guide** | Conceptual guide covering SDC clock domains, generated clocks, and Clock Domain Crossing (CDC) exceptions. |
 | **[`troubleshooting-eda-builds.md`](./troubleshooting-eda-builds.md)** | **Troubleshooting & Diagnostics** | Diagnostic matrix, root-cause analyses, and resolution procedures for build & license failures. |
+| **[`release-notes.md`](./release-notes.md)** | **Release & Migration** | Enterprise release notes, breaking API change migration guides, and SemVer changelogs. |
 | **[`rtl-synthesis-architecture.md`](./rtl-synthesis-architecture.md)** | **System Architecture** | Conceptual architecture guide detailing RTL-to-gate mapping pipelines, constraint inputs, and intermediate representations. |
 
 ---
@@ -43,6 +44,7 @@ developer-docs-portfolio/
 ├── tcl-command-reference.md       # Scripting command reference (SDC/TCL)
 ├── sdc-timing-constraints.md      # Conceptual guide for SDC & CDC exceptions
 ├── troubleshooting-eda-builds.md  # Troubleshooting & error resolution guide
+├── release-notes.md  # Release & Migration guide
 └── rtl-synthesis-architecture.md # Conceptual architecture guide
 ```
 
